@@ -18,7 +18,6 @@ namespace Survivalistic
 
         public override void Entry(IModHelper helper)
         {
-            instance = this;
             config = Helper.ReadConfig<Config>();
 
             Textures.LoadTextures();
